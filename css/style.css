@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,
+li {
+  list-style: none;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Inicio menu navegacion */
+
+.main__header {
+  background-color: #fdc72d;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__header nav {
+  width: 800px;
+}
+
+.main__header__nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.main__header img{
+    padding-left: 30px;
+}
+.main__header__nav li {
+  padding-left: 10px;
+}
+
+/* fin menu navegacion */
+
+.main__principal {
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+ }
+
+.main__principal__container{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+}
+
+.main__principal__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 500px;
+  justify-content: space-between;
+}
+
+.main__principal__img {
+  display: flex;
+}
+.main__principal__title {
+  font-size: 60px;
+  font-weight: 700;
+}
+.main__principal__paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  color: #777776;
+}
+.footer {
+  background-color: #fee395;
+}
+
+.main__header__button {
+  background-color: #fdc72d;
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  width: 179px;
+  height: 61px;
+  border-radius: 61px;
+  text-align: center;
+}
+
+.main__header__button p {
+  padding-top: 15px;
+}
+
+/* fin contenido main header */
+
+/* inicio about us */
+
+.about__us{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.about__us__img{
+    display: flex;;
+}
+
+.about__us__wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.about__us__title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.about__us__paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  color: #777776;
+}
+
+.about__us__button {
+  background-color: #fdc72d;
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  width: 179px;
+  height: 61px;
+  border-radius: 61px;
+  text-align: center;
+}
+
+.about__us__button p {
+  padding-top: 15px;
+}
+
+/* fin about us */
+
+/* inicio nuestros servicios */
+.our__services {
+  margin: 20px;
+}
+.our__services__title {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+.our__services__card {
+  border: #777776 solid 1px;
+  padding-left: 50px;
+  width: 380px;
+  height: 380px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.our__services__paragraph {
+  font-weight: 500;
+  font-size: 15px;
+  color: #777776;
+}
+.our__services__card__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.our__services__card a {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* fin nuestros servicios */
+
+/* Download app inicio */
+.download__app__title {
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+
+.download__app__paragraph {
+  font-weight: 500;
+  font-size: 20px;
+  color: #777776;
+}
+
+.download__app__button {
+  background-color: #fdc72d;
+  display: flex;
+  align-items: center;
+  width: 201px;
+  height: 61px;
+  border-radius: 61px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.download__app__button img,
+p {
+  align-items: center;
+}
+
+/* download app fin */
+
+/* Seccion contacto */
+
+.contact__us {
+  margin: 20px;
+}
+
+.contact__us__title {
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+
+.contact__us__paragraph {
+  font-weight: 600;
+  font-size: 20px;
+  color: #777776;
+}
+
+.contact__us__button {
+  background-color: #fdc72d;
+  display: flex;
+  align-items: center;
+  width: 201px;
+  height: 61px;
+  border-radius: 61px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* seccion footer */
+
+.footer__content p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.footer__content ul {
+  font-weight: 600;
+  font-size: 15px;
+  color: #777776;
+}
